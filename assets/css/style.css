@@ -1,0 +1,182 @@
+@font-face{
+    font-family: 'open-sans-reg';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'fredericka-the-great-reg';
+    src: url(../fonts/FrederickatheGreat-Regular.ttf);
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-image: url(../img/header_img.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.headline{
+    font-family: 'fredericka-the-great-reg';
+}
+
+header h1{
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 60px;
+    color: #ffffff;
+    font-size: 42px;
+}
+
+header section{
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+header section h2{
+    font-size: 36px;
+    margin: 25vh auto 0 auto;
+}
+
+header section p{
+    font-family: 'open-sans-reg';
+    font-size: 16px;
+    width: 300px;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+header section a{
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'open-sans-reg';
+}
+
+
+header article{
+    margin-right: 60px;
+    margin-top: 25vh;
+    
+}
+
+header article a{
+    text-align: right;
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffffff; 
+    text-decoration: none;
+    font-family: 'open-sans-reg';
+}
+
+header article a:hover{
+    color: lightgray;
+    text-decoration: underline;
+}
+
+main{
+    background-color: #ffffff;
+    text-align: center;
+}
+
+main section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+main section h2{
+    font-size: 30px;
+}
+
+main section p{
+    width: 600px;
+    margin: auto;
+    font-family: 'open-sans-reg';
+}
+
+main section div{
+    display: inline-block;
+    margin: 30px;
+    padding: 20px;
+    border: 3px solid black;
+    width: 200px;
+}
+
+main section div p{
+    margin: 10px auto;
+    width: 150px;
+}
+
+main section div a{
+    font-family: 'open-sans-reg';
+    display: inline-block;
+    margin: 10px auto;
+    text-decoration: none;
+    color:black;
+}
+
+main section div a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color:darkslategrey; 
+}
+
+footer section{
+    margin: 0px;
+    color: #ffffff; 
+    font-size: 12px;
+    font-family: 'open-sans-reg';  
+}
+
+footer section p{
+    margin-top: 0px;
+    margin-block-end: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    width: 470px;
+}  
+
+footer section a{
+    margin-left: 30px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: #ffffff;
+} 
+
+footer div nav{
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+footer div nav a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'open-sans-reg';
+    font-size: 12px;
+}
+
+footer div nav a:hover{
+    color: lightgrey;
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.button_hover:hover{
+    color: black;
+    background: #ffffff;
+}
